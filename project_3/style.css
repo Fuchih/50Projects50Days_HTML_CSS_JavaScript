@@ -1,0 +1,109 @@
+* {
+    margin     : 0;
+    padding    : 0;
+    font-family: "Helvetica", "Arial", "LiHei Pro", "黑體-繁", "微軟正黑體", sans-serif;
+}
+
+a {
+    color          : #fff;
+    text-decoration: none;
+}
+
+.wrapper {
+    position        : relative;
+    width           : 100%;
+    background-color: rgb(51, 51, 51);
+}
+
+.back {
+    position        : relative;
+    width           : 100%;
+    background-color: rgb(240, 238, 243);
+    transform-origin: top left;
+    transition      : .7s ease;
+}
+
+.container {
+    width           : 80%;
+    margin          : 0 auto;
+    padding         : 90px 0;
+    background-color: rgb(240, 238, 243);
+}
+
+.container div {
+    text-align: center;
+}
+
+main img {
+    width: 60%;
+}
+
+
+.rotate {
+    position        : absolute;
+    z-index         : 1;
+    top             : -100px;
+    left            : -100px;
+    width           : 200px;
+    height          : 200px;
+    border-radius   : 50%;
+    background-color: rgb(149, 112, 80);
+    transition      : .7s ease;
+}
+
+.bar,
+.close {
+    box-sizing: border-box;
+    width     : 50px;
+    height    : 50px;
+    cursor    : pointer;
+}
+
+.bar {
+    transform: translate(130px, 130px)
+}
+
+.bar1,
+.bar2,
+.bar3,
+.bar4,
+.bar5 {
+    width           : 30px;
+    height          : 5px;
+    margin          : 6px 0;
+    border-radius   : 20px;
+    background-color: #fff;
+
+}
+
+.close {
+    transform: translate(40px, 90px);
+}
+
+.bar4 {
+    transform: rotate(-50deg) translate(-1px, -1px);
+
+}
+
+.bar5 {
+    transform: rotate(30deg) translate(-7px, -9px);
+
+}
+
+nav {
+    position  : fixed;
+    top       : 500px;
+    left      : 40px;
+    transform : translate(-200px);
+    transition: 1s ease;
+}
+
+nav div {
+    margin: 50px 0;
+
+}
+
+nav div a {
+    padding  : 30px 10px;
+    font-size: 30px;
+}
