@@ -5,3 +5,5 @@
 02	Progress Steps
 
 03	Rotating Navigation Animation
+
+04	Hidden Search Widget
