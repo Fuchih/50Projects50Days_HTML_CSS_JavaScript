@@ -9,3 +9,5 @@
 04	Hidden Search Widget
 
 05	Blurry Loading
+
+06	Scroll Animation

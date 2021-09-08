@@ -1,0 +1,37 @@
+body {
+  overflow-x: hidden;
+  background-color: antiquewhite;
+}
+.container {
+  display        : flex;
+  flex-direction : column;
+  justify-content: center;
+  align-items    : center;
+}
+
+.box {
+  width           : 500px;
+  height          : 200px;
+  margin          : 20px;
+  border-radius   : 20px;
+  text-align      : center;
+  color           : #fff;
+  background-color: cadetblue;
+  transform       : translateX(300%);
+  transition      : all .5s ease;
+}
+
+h2 {
+  line-height: 50px;
+  font-size: 100px;
+}
+
+div:nth-child(even) {
+  transform: translateX(-300%);
+}
+
+
+.container .show {
+  transform: translateX(0);
+}
+
