@@ -1,0 +1,62 @@
+body {
+  display   : flex;
+  height    : 100vh;
+  margin    : 0;
+  padding   : 0;
+  text-align: center;
+}
+
+.ps,
+.xbox {
+  position  : relative;
+  flex      : 1;
+  transition: all .7s ease-out;
+}
+
+.ps {
+  background     : url(./img/PS5.jpg) no-repeat center;
+  background-size: 100vh;
+}
+
+.xbox {
+  background           : url(./img/XBox.png) no-repeat center;
+  background-size      : 100vh;
+  background-position-y: 15vh;
+}
+
+.btn {
+  position   : relative;
+  width      : 300px;
+  height     : 50px;
+  line-height: 50px;
+  margin     : 0 auto;
+  border     : 3px solid #ccc;
+  color      : dodgerblue;
+  font-size  : 30px;
+  cursor     : pointer;
+}
+
+.btn:hover {
+  border          : 3px solid #ccc;
+  background-color: #ccc;
+  color           : #fff;
+}
+
+.ps-mask::before,
+.xbox-mask::before {
+  content : '';
+  position: absolute;
+  top     : 0;
+  width   : 100%;
+  height  : 100%;
+}
+
+.ps-mask::before {
+  left      : 0;
+  background: rgba(15, 17, 94, 0.4);
+}
+
+.xbox-mask::before {
+  right     : 0;
+  background: rgba(31, 124, 12, 0.4);
+}
