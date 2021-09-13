@@ -1,6 +1,6 @@
 # LearningProject
 
-01	Expanding Cards  
+01	Expanding Cards
 
 02	Progress Steps
 
@@ -13,3 +13,5 @@
 06	Scroll Animation
 
 07	Split Landing Page
+
+08  Form Wave
