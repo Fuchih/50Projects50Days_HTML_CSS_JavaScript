@@ -1,4 +1,4 @@
-# LearningProject
+# 50 Projects in 50 Days - HTML/CSS and JavaScript
 
 [01	Expanding Cards](https://github.com/Fuchih/LearningProject/tree/main/project_1)
 
