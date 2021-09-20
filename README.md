@@ -1,6 +1,6 @@
 # LearningProject
 
-01	Expanding Cards
+[01	Expanding Cards](./Project_1)
 
 02	Progress Steps
 
