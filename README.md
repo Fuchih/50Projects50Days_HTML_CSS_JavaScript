@@ -1,10 +1,10 @@
 # 50 Projects in 50 Days - HTML/CSS and JavaScript
 
-[01	Expanding Cards](https://github.com/Fuchih/LearningProject/tree/main/project_1)---------------[<u>DEMO</u>](https://awesome-ptolemy-727700.netlify.app/)
+[01	Expanding Cards](https://github.com/Fuchih/LearningProject/tree/main/project_1)------[**DEMO**](https://zen-khorana-ce82a2.netlify.app)
 
-[02	Progress Steps](https://github.com/Fuchih/LearningProject/tree/main/project_2)---------------[<u>DEMO</u>](https://suspicious-wing-565456.netlify.app)
+[02	Progress Steps](https://github.com/Fuchih/LearningProject/tree/main/project_2)------[**DEMO**](https://suspicious-wing-565456.netlify.app)
 
-[03	Rotating Navigation Animation](https://github.com/Fuchih/LearningProject/tree/main/project_3)---------------[<u>DEMO</u>](https://serene-morse-5197d2.netlify.app)
+[03	Rotating Navigation Animation](https://github.com/Fuchih/LearningProject/tree/main/project_3)------[**DEMO**](https://serene-morse-5197d2.netlify.app)
 
 [04	Hidden Search Widget](https://github.com/Fuchih/LearningProject/tree/main/Project_4)
 
