@@ -1,6 +1,6 @@
 # 50 Projects in 50 Days - HTML/CSS and JavaScript
 
-[01	Expanding Cards](https://github.com/Fuchih/LearningProject/tree/main/project_1)
+[01	Expanding Cards](https://github.com/Fuchih/LearningProject/tree/main/project_1)-----[DEMO](https://awesome-ptolemy-727700.netlify.app/)
 
 [02	Progress Steps](https://github.com/Fuchih/LearningProject/tree/main/project_2)
 
