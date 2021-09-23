@@ -14,11 +14,13 @@
 
 [07	Split Landing Page](https://github.com/Fuchih/LearningProject/tree/main/Project_7)
 
-[08  Form Wave](https://github.com/Fuchih/LearningProject/tree/main/Project_8)
+[08   Form Wave](https://github.com/Fuchih/LearningProject/tree/main/Project_8)
 
 [09	Sound Board](https://github.com/Fuchih/LearningProject/tree/main/Project_9)
 
 [10	Dad Jokes](https://github.com/Fuchih/LearningProject/tree/main/Project_10)
 
 [11    Event Keycodes](https://github.com/Fuchih/LearningProject/tree/main/Project_11)
+
+[12   FAQ Collapse](https://github.com/Fuchih/LearningProject/tree/main/Project_12)
 

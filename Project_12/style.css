@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display         : flex;
+  flex-direction  : column;
+  align-items     : center;
+  height          : 100vh;
+  background-color: #eee;
+  font-family     : "Helvetica Neue", Helvetica, Arial;
+}
+
+.container {
+  width        : 80%;
+  margin-top   : 20px;
+  border-radius: 10px;
+}
+
+.faq {
+  position     : relative;
+  overflow-y   : hidden;
+  height       : 60px;
+  margin-bottom: 50px;
+  border       : 1px solid #ccc;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3,
+p {
+  margin-left: 20px;
+}
+
+button {
+  position        : absolute;
+  bottom          : 5px;
+  right           : 0;
+  padding         : 15px;
+  border          : none;
+  background-color: transparent;
+  cursor          : pointer;
+}
+
+.icon,
+.icon-reverse {
+  height   : 12px;
+  width    : 12px;
+  transform: rotate(45deg);
+}
+
+.icon {
+  border-right : 1px solid;
+  border-bottom: 1px solid;
+}
+
+.icon-reverse {
+  border-top : 1px solid;
+  border-left: 1px solid;
+
+}
+
+button:active {
+  transform: scale(.95);
+}
+
+.active {
+  background-color: #fff;
+  box-shadow      : 0 0 10px rgba(0, 0, 0, .4);
+}
