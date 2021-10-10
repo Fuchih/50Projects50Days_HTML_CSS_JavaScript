@@ -4,6 +4,42 @@ body {
   font-family     : Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.modal {
+  display         : none;
+  z-index         : 2;
+  position        : absolute;
+  top             : 0;
+  left            : 0;
+  width           : 100vw;
+  height          : 100vh;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.content {
+  position        : relative;
+  width           : 50%;
+  margin          : 25% auto;
+  border-radius   : 20px;
+  background-color: burlywood;
+}
+
+.alert {
+  padding       : 30px;
+  line-height   : 30px;
+  letter-spacing: 2px;
+}
+
+#close {
+  position : absolute;
+  bottom   : 10px;
+  right    : 10px;
+  font-size: 3rem;
+}
+
+#close:active {
+  transform: scale(.95);
+}
+
 .container {
   width           : 380px;
   margin          : 100px auto;
