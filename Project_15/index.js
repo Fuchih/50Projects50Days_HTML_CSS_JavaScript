@@ -33,6 +33,9 @@ function liter(index) {
 }
 
 function glassColor(index) {
+  for (let i = index + 1; i < glasses.length; i++) {
+    glasses[i].classList.remove('color')
+  }
   for (let i = 0; i < index; i++) {
     glasses[i].classList.add('color')
   }

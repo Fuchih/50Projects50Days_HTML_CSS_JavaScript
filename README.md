@@ -16,7 +16,7 @@
 | 12   | [FAQ Collapse](https://github.com/Fuchih/LearningProject/tree/main/Project_12) | [**DEMO**](https://gracious-lichterman-e9abde.netlify.app)   |
 | 13   | [Form Validation](https://github.com/Fuchih/50Projects50Days_HTML_CSS_JavaScript/tree/main/Project_13) | [**DEMO**](https://wonderful-pasteur-2427a7.netlify.app)     |
 | 14   | [Incrementing Counter](https://github.com/Fuchih/50Projects50Days_HTML_CSS_JavaScript/tree/main/Project_14) | [**DEMO**](https://trusting-pasteur-2eaa53.netlify.app)      |
-|      |                                                              |                                                              |
+| 15   | [Drink Beer](https://github.com/Fuchih/50Projects50Days_HTML_CSS_JavaScript/tree/main/Project_15) | [**DEMO**](https://musing-edison-fab4e6.netlify.app)         |
 |      |                                                              |                                                              |
 |      |                                                              |                                                              |
 |      |                                                              |                                                              |
