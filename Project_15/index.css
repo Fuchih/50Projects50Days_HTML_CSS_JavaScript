@@ -26,6 +26,7 @@ h1 {
 }
 
 .jug {
+  position                  : relative;
   overflow                  : hidden;
   display                   : flex;
   flex-direction            : column;
@@ -34,15 +35,17 @@ h1 {
   border                    : 6px solid #144fc6;
   border-bottom-left-radius : 60px;
   border-bottom-right-radius: 60px;
-  background-color          : #fff;
+  background                : linear-gradient(to top, #be8810, #ecc104);
   color                     : #3494e4;
 }
 
 .empty {
-  display        : flex;
-  flex-direction : column;
-  justify-content: center;
-  height         : 87.5%;
+  display         : flex;
+  flex-direction  : column;
+  justify-content : center;
+  height          : 100%;
+  background-color: #fff;
+  transition      : all 1s ease-out;
 }
 
 .empty>p,
@@ -54,10 +57,8 @@ h1 {
   display        : flex;
   flex-direction : column;
   justify-content: center;
-  background     : linear-gradient(to top, #8d4d00, #ecc104);
-  height         : 12.5%;
+  height         : 0;
   color          : #fff;
-  opacity        : 0;
 }
 
 .text {
