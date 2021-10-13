@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #3494e4;
+}
+
+body {
+  width      : 100%;
+  height     : 100vh;
+  text-align : center;
+  color      : #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  display        : flex;
+  flex-direction : column;
+  justify-content: center;
+  align-items    : center;
+}
+
+h1 {
+  margin: 0;
+}
+
+.jug {
+  overflow                  : hidden;
+  display                   : flex;
+  flex-direction            : column;
+  width                     : 230px;
+  height                    : 50vh;
+  border                    : 6px solid #144fc6;
+  border-bottom-left-radius : 60px;
+  border-bottom-right-radius: 60px;
+  background-color          : #fff;
+  color                     : #3494e4;
+}
+
+.empty {
+  display        : flex;
+  flex-direction : column;
+  justify-content: center;
+  height         : 87.5%;
+}
+
+.empty>p,
+.empty>h3 {
+  margin: 0;
+}
+
+.fulfil {
+  display        : flex;
+  flex-direction : column;
+  justify-content: center;
+  background     : linear-gradient(to top, #8d4d00, #ecc104);
+  height         : 12.5%;
+  color          : #fff;
+  opacity        : 0;
+}
+
+.text {
+  margin: 20px 0;
+}
+
+.glasses {
+  display  : flex;
+  flex-wrap: wrap;
+  width    : 300px;
+}
+
+.color {
+  background: linear-gradient(to top, #b88102, #ecc104);
+}
+
+.glass {
+  width                     : 65px;
+  margin                    : 5px;
+  border                    : 6px solid #144fc6;
+  border-bottom-left-radius : 60px;
+  border-bottom-right-radius: 60px;
+  background-color          : #fff;
+  color                     : #3494e4;
+  cursor                    : pointer;
+}
